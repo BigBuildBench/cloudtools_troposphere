@@ -1,0 +1,33 @@
+# troposphere
+# -------------------------------------
+
+setuptools
+
+# ---- Need libraries installed by setup.py
+
+# ---- Use jsonpatch to fixup spec files
+jsonpatch
+
+# ---- Documentation Libraries
+sphinx==6.2.1
+sphinx_rtd_theme==1.2.2
+
+# ---- S/W Engineering Libraries
+
+# ---- ---- Styling and Linting
+flake8>=4.0.1
+pycodestyle>=2.4
+pydocstyle>=3.0
+pyflakes>=2.1
+pylint>=1.9
+pre-commit>=2.16
+
+# ---- ---- Testing
+pytest>=4.1
+pytest-cov>=2.6
+
+black==24.4.2
+build==0.5.1
+click==8.0.4
+isort==5.13.2
+tox==3.23.1
